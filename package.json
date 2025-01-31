@@ -1,0 +1,27 @@
+{
+    "name" : "chatbot",
+     "version" : "0.1.0" ,
+     "private" :  true ,
+     "scripts": {
+        "dev" : "next dev --turbopack",
+        "build" : "next build",
+        "start" : "next start",
+        "lint" : "next lint" 
+     },
+
+     "dependencies": {
+        "next" : "15.1.5",
+        "openai" : "^4.79.1",
+        "react":  "^19.0.0" ,
+        "react-chatbot-kit" : "^2.2.2" ,
+        "react-dom" : "^19.0.0"
+     }
+   ,
+     "devDependencies" : {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.3"
+     
+
+}
+}
